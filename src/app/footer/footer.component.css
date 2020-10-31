@@ -1,0 +1,100 @@
+.login-container {
+    padding: 10px;
+}
+
+.info-err {
+    color: rgb(255, 60, 0);
+}
+
+p {
+    font-weight: bold;
+}
+
+#footer {
+    background-color:#064c96;
+    color: #eee;
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+#footer .footer-top {
+    padding: 60px 5% 0px 5%;
+    background-color: rgb(251, 255, 255);
+    margin: 0;
+}
+
+#footer .footer-top .footer-info {
+    /* padding-left: 10%; */
+    margin-bottom: 30px;
+}
+
+/*  
+  #footer .footer-top .footer-info p {
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(13, 13, 14);
+  }
+   */
+
+#footer .footer-top h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(10, 21, 170);
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#footer .footer-top .footer-contact {
+    /* padding-left: 16%; */
+    margin-bottom: 30px;
+}
+
+#footer .footer-top p {
+    line-height: 26px;
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    background-color: #013469;
+}
+
+.container button {
+    cursor: text;
+    color: rgb(255, 255, 255);
+}
+
+/* social media  icons*/
+
+.mailus {
+    padding: 0;
+}
+
+.spinner {
+    text-align: center;
+}
+
+.social a {
+    margin: 2px;
+}
+
+.social svg {
+    border-radius: 25px;
+    margin:1px;
+  }
+
+.social svg:hover {
+    background-color:#c6d7e9;
+    border-radius: 20px;
+}
+
+.btnSubmit{
+    background-color:rgb(8, 8, 8);
+    color: rgb(251, 255, 255);
+}
+.btnSubmit:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

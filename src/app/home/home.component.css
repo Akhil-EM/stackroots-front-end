@@ -1,0 +1,19 @@
+.main{
+    margin-top:5vh;
+    padding:10vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #022f63;
+}
+.card{
+    background-color: #013979;
+    padding:5vh;
+    height:55vh;
+}
+.card:hover{
+    background-color: #022957;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+}
+.card i{
+    font-size:50px;
+}

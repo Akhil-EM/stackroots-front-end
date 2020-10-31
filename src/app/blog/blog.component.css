@@ -1,0 +1,123 @@
+.main{
+    margin-top:5vh;
+    padding:5vh;
+   
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: #022f63;
+}
+.main h2{
+    color:#ffffff;
+}
+.card {
+    border-radius: 4px;
+    background-color: #fafafa;
+    display: flex;
+    transition: all .3s ease-in-out;
+    line-height: 24px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding: 0;
+    width: 100%;
+    
+  
+  }
+  
+  .card-container .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  }
+  .heading{
+      color: #020202;
+  }
+  .jumbotron {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgba(239, 244, 245, 0.726);
+  }
+  
+  img {
+    height: 250px;
+    width: 100%;
+  }
+  
+  .card svg {
+    fill: rgb(0, 140, 255);
+  }
+  
+  h2 {
+    color: rgb(24, 25, 26);
+    
+  }
+  
+  .social a {
+    margin: 2px;
+  }
+  
+  .social svg {
+    background-color: rgb(240, 240, 240);
+    border-radius: 25px;
+  }
+  
+  .social svg:hover {
+    background-color:#c6d7e9;
+    border-radius: 20px;
+    transform: translateY(-5px);
+  }
+  
+  .date {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+  }
+  
+  #preview {
+    height: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+  }
+  
+  .custom-file {
+    margin-bottom: 3%;
+  }
+  
+  .add-post{
+    border-style: solid;
+  }
+  
+  .spinner{
+    text-align: center;
+    padding-top: 40px;
+    height: 100px;
+  }
+  
+  .blog{
+    text-align: center;
+    padding-top: 40px;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  h3{
+    color: red;
+  }
+  
+  
+  .custom-file{
+    z-index: 0;
+  }

@@ -1,0 +1,71 @@
+<nav class="navbar navbar-expand-lg navbar-light sticky-top " id="navbar">
+    <button class="navbar-toggler" type="button" (click)="collapse()">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- <a class="navbar-brand ml-auto" routerLink="home"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+            fill="black" width="40px" height="40px">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M7 10l5 5 5-5z" /></svg></a> -->
+    <div class="d-flex flex-row">
+        <a class="navbar-brand ml-auto d-none d-sm-block" routerLink="home"><img src="assets/image/logo.png" width="80" height="80"></a> 
+        <div class=" company" (click)="home()">
+        
+            <div class="row">
+                
+    
+                <div class="col-sm-12 company-name1">
+                    <h3>STACKROOTS</h3>
+                    <hr>
+                    <p>TECHNOLOGY SOLUTIONS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+
+
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav ml-auto mt-2 mt-sm-0">
+            <li class="nav-item ">
+                <a class="nav-link" routerLink="home" routerLinkActive="is-active"
+                    [routerLinkActiveOptions]="{exact: true}" href="/">Home</a>
+            </li>
+
+            <li class="nav-item ">
+                <a class="nav-link" routerLink="services" routerLinkActive="is-active"
+                    [routerLinkActiveOptions]="{exact: true}" href="/services">Services</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" routerLink="/about" routerLinkActive="is-active"
+                    [routerLinkActiveOptions]="{exact: true}" href="/about">About</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" routerLink="blog" routerLinkActive="is-active"
+                    [routerLinkActiveOptions]="{exact: true}" href="/blog">Blog </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div id="myNav" class="overlay collapsed">
+
+    <a href="javascript:void(0)" class="closebtn" (click)="collapse()">&times;</a>
+    <!-- Overlay content -->
+
+    <div class="overlay-content">
+        <div class="company" (click)="home()">
+            <div class="row">
+                <div class="col-sm-12 company-name1">
+                    <h4>STACKROOTS</h4>
+                </div>
+            </div>
+        </div>
+        <a routerLink="home">Home</a>
+        <a routerLink="#">Services</a>
+        <a routerLink="#">About</a>
+        <a routerLink="blog">Blog</a>
+    </div>
+
+</div>
